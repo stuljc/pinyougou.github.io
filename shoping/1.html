@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>边框重叠</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        .demo {
+            width: 310px;
+            height: 205px;
+            margin: auto;
+            padding: 10px;
+            border: 1px solid red;
+            margin-bottom: -1px;
+        }
+
+        .demo li {
+            width: 100px;
+            height: 100px;
+            float: left;
+            border: 1px solid #000000;
+            margin: 0px -1px -1px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- <div class="demo">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div> -->
+</body>
+
+</html>
